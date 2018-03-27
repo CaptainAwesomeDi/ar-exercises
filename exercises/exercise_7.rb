@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+user_input = gets.chomp.to_s
+hello=Store.create(name:user_input)
+puts hello.errors.full_messages
